@@ -16,7 +16,7 @@ const Modal = (props) => {
             <View style={styles.centeredView}>
                 <View style={styles.modal}>
                     <Text style={{fontSize: 20}}>
-                        ¿Ya realizaste esta tarea?
+                        ¿Seguro deseas eliminar este item?
                     </Text>
                     <Pressable 
                     onPress={() => actionDeleteItem()} 
